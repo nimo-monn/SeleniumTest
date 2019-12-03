@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42988" started-at="2019-12-03T21:43:07 CET" finished-at="2019-12-03T21:43:50 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42988" started-at="2019-12-03T21:43:07 CET" finished-at="2019-12-03T21:43:50 CET">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@5c5a1b69]" name="setup" is-config="true" duration-ms="5580" started-at="2019-12-03T21:43:07 CET" finished-at="2019-12-03T21:43:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basicLogin()[pri:0, instance:tests.LoginTest@5c5a1b69]" name="basicLogin" duration-ms="14775" started-at="2019-12-03T21:43:13 CET" finished-at="2019-12-03T21:43:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicLogin -->
+        <test-method status="PASS" signature="dashboardTest()[pri:1, instance:tests.LoginTest@5c5a1b69]" name="dashboardTest" duration-ms="120" started-at="2019-12-03T21:43:27 CET" finished-at="2019-12-03T21:43:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method status="PASS" signature="addEmployeeTest()[pri:20, instance:tests.LoginTest@5c5a1b69]" name="addEmployeeTest" duration-ms="11955" started-at="2019-12-03T21:43:27 CET" finished-at="2019-12-03T21:43:39 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method status="PASS" signature="goProfileSettings()[pri:21, instance:tests.LoginTest@5c5a1b69]" name="goProfileSettings" duration-ms="10537" started-at="2019-12-03T21:43:39 CET" finished-at="2019-12-03T21:43:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goProfileSettings -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.LoginTest@5c5a1b69]" name="quit" is-config="true" duration-ms="0" started-at="2019-12-03T21:43:50 CET" finished-at="2019-12-03T21:43:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
